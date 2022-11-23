@@ -1,0 +1,52 @@
+<html>
+    <body>
+        <div id = "div1">Hello</div>
+    </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script >
+    var num = 10;
+    let text = "PorlazA";
+    let Array = [10,15,"PorlazA"];
+    const obj = {name: "PorlazA",age : 20};
+    const objMix = {
+        data:[
+            {name : "dang",gpa: 4.3},
+            {name :"dum",gpa : 2.8},
+        ],
+    };
+    console.log(num);
+    console.log(Arry);
+    console.log(oblmix);
+
+    let string = num + name;
+    console.log(string);
+
+    string = objMix.data[1].name + Array[0];
+    console.log(string);
+
+    string = "<p>" + Array[2] + "</p>";
+    string = `<p>${Array}</p>`;
+
+    console.log(string);
+
+    function add(a, b) {
+        retrun a + b;
+    }
+    console.log(Add(3,5));
+
+    document.getElementById("div1").innerHTML = name;
+
+    $(function (){
+        //alert("Hello");
+        $("#div1").html("Porloes");
+
+        $("#bt1").bind("click",function () {
+            $("#div1").html("i love it");
+        });
+
+        $("#bt2").click("click",function () {
+            $("#div1").html("i love it");
+        });
+    });
+</scrip>
