@@ -54,6 +54,7 @@
         });
 
         $("#div_about").load("./pages/about.html");
+        $("#div_about").form("./pages/about.html");
        
     });
 
